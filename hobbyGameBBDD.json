@@ -1,0 +1,288 @@
+{
+    "videogames": [
+        {
+            "title": "Cyberpunk",
+            "releaseYear": 2020,
+            "developers": [
+                {
+                    "name": "Razork",
+                    "nationality": "Spain",
+                    "profesion": 133,
+                    "experienceYears": 2
+                },
+                {
+                    "name": "Zanzarah",
+                    "nationality": "Serbia",
+                    "profesion": 133,
+                    "experienceYears": 3
+                },
+                {
+                    "name": "Promisq",
+                    "nationality": "Croatia",
+                    "profesion": 133,
+                    "experienceYears": 5
+                }
+            ],
+            "nacionality": "Canada",
+            "director": {
+                "name": "Carlos Ocelote",
+                "nationality": "Germany",
+                "profesion": 684,
+                "experienceYears": 10
+            },
+            "languages": [
+                "English, Spanish, Polish, French, Italian"
+            ],
+            "platforms": [
+                {
+                    "name": "PC",
+                    "releaseYear": 1950,
+                    "company": "Mac",
+                    "nBits": 64,
+                    "generation": "Gen4",
+                    "hasHD": false,
+                    "hdSize": 1024,
+                    "hasInternetConnection": true,
+                    "storageDevice": "cartucho",
+                    "color": "negro"
+                },
+                {
+                    "name": "PS4",
+                    "releaseYear": 2010,
+                    "company": "Sony",
+                    "nBits": 64,
+                    "generation": "Gen5",
+                    "hasHD": true,
+                    "hdSize": 1024,
+                    "hasInternetConnection": true,
+                    "storageDevice": "bluray",
+                    "color": "white"
+                },
+                {
+                    "name": "XBOX",
+                    "releaseYear": 1994,
+                    "company": "Microsoft",
+                    "nBits": 64,
+                    "generation": "Gen5",
+                    "hasHD": true,
+                    "hdSize": 1024,
+                    "hasInternetConnection": true,
+                    "storageDevice": "dvd",
+                    "color": "green"
+                }
+            ],
+            "price": 80,
+            "score": 6
+        },
+        {
+            "title": "Final Fantasy VII",
+            "releaseYear": 1994,
+            "developers": [
+                {
+                    "name": "Alberto",
+                    "nationality": "Spain",
+                    "profesion": 133,
+                    "experienceYears": 1
+                },
+                {
+                    "name": "Cgoob",
+                    "nationality": "Spain",
+                    "profesion": 133,
+                    "experienceYears": 4
+                }
+            ],
+            "nacionality": "Japon",
+            "director": {
+                "name": "Carlos Ocelote",
+                "nationality": "Germany",
+                "profesion": 684,
+                "experienceYears": 10
+            },
+            "languages": [
+                "English",
+                "Japanese"
+            ],
+            "platforms": [
+                {
+                    "name": "PS4",
+                    "releaseYear": 2010,
+                    "company": "Sony",
+                    "nBits": 64,
+                    "generation": "Gen5",
+                    "hasHD": true,
+                    "hdSize": 1024,
+                    "hasInternetConnection": true,
+                    "storageDevice": "bluray",
+                    "color": "white"
+                },
+                {
+                    "name": "PC",
+                    "releaseYear": 1950,
+                    "company": "Mac",
+                    "nBits": 64,
+                    "generation": "Gen4",
+                    "hasHD": false,
+                    "hdSize": 1024,
+                    "hasInternetConnection": true,
+                    "storageDevice": "cartucho",
+                    "color": "negro"
+                }
+            ],
+            "price": 30,
+            "score": 10
+        },
+        {
+            "title": "SuperMario",
+            "releaseYear": 1990,
+            "developers": [
+                {
+                    "name": "Promisq",
+                    "nationality": "Croatia",
+                    "profesion": 133,
+                    "experienceYears": 5
+                }
+            ],
+            "nacionality": "Japan",
+            "director": {
+                "name": "Carlos Ocelote",
+                "nationality": "Germany",
+                "profesion": 684,
+                "experienceYears": 10
+            },
+            "languages": [
+                "Japanese"
+            ],
+            "platforms": [
+                {
+                    "name": "Nintendo",
+                    "releaseYear": 1984,
+                    "company": "Nintendo",
+                    "nBits": 32,
+                    "generation": "Gen4",
+                    "hasHD": false,
+                    "hdSize": 1024,
+                    "hasInternetConnection": true,
+                    "storageDevice": "tarjeta",
+                    "color": "red"
+                }
+            ],
+            "price": 70,
+            "score": 4
+        },
+        {
+            "title": "Pokemon",
+            "releaseYear": 2000,
+            "developers": [
+                {
+                    "name": "Ibai",
+                    "nationality": "Spain",
+                    "profesion": 133,
+                    "experienceYears": 1
+                },
+                {
+                    "name": "Razork",
+                    "nationality": "Spain",
+                    "profesion": 133,
+                    "experienceYears": 2
+                },
+                {
+                    "name": "Zanzarah",
+                    "nationality": "Serbia",
+                    "profesion": 133,
+                    "experienceYears": 3
+                }
+            ],
+            "nacionality": "Japan",
+            "director": {
+                "name": "Carlos Ocelote",
+                "nationality": "Germany",
+                "profesion": 684,
+                "experienceYears": 10
+            },
+            "languages": [
+                "Japanese",
+                "English",
+                "Spanish"
+            ],
+            "platforms": [
+                {
+                    "name": "PC",
+                    "releaseYear": 1950,
+                    "company": "Mac",
+                    "nBits": 64,
+                    "generation": "Gen4",
+                    "hasHD": false,
+                    "hdSize": 1024,
+                    "hasInternetConnection": true,
+                    "storageDevice": "cartucho",
+                    "color": "negro"
+                },
+                {
+                    "name": "Nintendo",
+                    "releaseYear": 1984,
+                    "company": "Nintendo",
+                    "nBits": 32,
+                    "generation": "Gen4",
+                    "hasHD": false,
+                    "hdSize": 1024,
+                    "hasInternetConnection": true,
+                    "storageDevice": "tarjeta",
+                    "color": "red"
+                }
+            ],
+            "price": 75,
+            "score": 8
+        },
+        {
+            "title": "League of Legends",
+            "releaseYear": 2010,
+            "developers": [
+                {
+                    "name": "Razork",
+                    "nationality": "Spain",
+                    "profesion": 133,
+                    "experienceYears": 2
+                },
+                {
+                    "name": "Zanzarah",
+                    "nationality": "Serbia",
+                    "profesion": 133,
+                    "experienceYears": 3
+                },
+                {
+                    "name": "Promisq",
+                    "nationality": "Croatia",
+                    "profesion": 133,
+                    "experienceYears": 5
+                }
+            ],
+            "nacionality": "EEUU",
+            "director": {
+                "name": "Carlos Ocelote",
+                "nationality": "Germany",
+                "profesion": 684,
+                "experienceYears": 10
+            },
+            "languages": [
+                "English",
+                "Spanish"
+            ],
+            "platforms": [
+                {
+                    "name": "PC",
+                    "releaseYear": 1950,
+                    "company": "Mac",
+                    "nBits": 64,
+                    "generation": "Gen4",
+                    "hasHD": false,
+                    "hdSize": 1024,
+                    "hasInternetConnection": true,
+                    "storageDevice": "cartucho",
+                    "color": "negro"
+                }
+            ],
+            "price": 7,
+            "score": 1
+        }
+    ]
+}

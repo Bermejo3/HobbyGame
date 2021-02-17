@@ -81,4 +81,19 @@ export class HobbyGame {
         }
         return result
     }
+
+    public writeOnJSONFile(fileName: string){
+        var fs = require('fs')
+
+        fs.writeFileSync(fileName, JSON.stringify(this))
+    }
+
+    public getInstance(nombreFichero: string): HobbyGame{
+        var fs = require('fs')
+
+        let input = fs.readFileSync(nombreFichero, "utf8")
+        let newThis: HobbyGame = new HobbyGame([JSON.parse(input).videogames])
+        
+        return newThis
+    }
 }
