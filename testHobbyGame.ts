@@ -22,30 +22,15 @@ let mario: Videogame = new Videogame("SuperMario", 1990, [promisq], "Japan", oce
 let pokemon: Videogame = new Videogame("Pokemon", 2000, [ibai, razork, zanzarah], "Japan", ocelote, ["Japanese", "English", "Spanish"], [pc, nintendo], 75, Score.eigth)
 let lol: Videogame = new Videogame("League of Legends", 2010, [razork, zanzarah, promisq], "EEUU", ocelote, ["English", "Spanish"], [pc], 7, Score.one)
 
-let hobbygame: HobbyGame = new HobbyGame([cyberpunk, ffvii, mario, pokemon, lol])
+export let hobbygame: HobbyGame = new HobbyGame([cyberpunk, ffvii, mario, pokemon, lol])
 
-// console.log(hobbygame.allPrice());
-// console.log(hobbygame.pricePlatform(ps4));
-// console.log(hobbygame.videogameApproved());
-// console.log(hobbygame.videogameDeveloper(razork));
-// console.log(hobbygame.videogameLanguages("Japanese"));
-// console.log(hobbygame.videogamePlatformLanguage(pc, "Spanish"));
+console.log(hobbygame.allPrice());
+console.log(hobbygame.pricePlatform(ps4));
+console.log(hobbygame.videogameApproved());
+console.log(hobbygame.videogameDeveloper(razork));
+console.log(hobbygame.videogameLanguages("Japanese"));
+console.log(hobbygame.videogamePlatformLanguage(pc, "Spanish"));
 
-//Convertir en fichero json, leerlo y escribirlo
-
-let output = JSON.stringify(hobbygame)
-
-var fs = require("fs");
-
-// fs.writeFileSync("hobbyGameBBDD.json", output)
-
-let input = fs.readFileSync("hobbyGameBBDD.json", "utf8")
-
-// console.log(JSON.parse(input).videogames);
-
-let hobbygameInstanciado: HobbyGame = hobbygame.getInstance("hobbyGameBBDD.json")
-
-console.log(hobbygameInstanciado.getVideogames());
 
 
 
