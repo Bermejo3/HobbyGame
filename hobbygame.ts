@@ -92,7 +92,7 @@ export class HobbyGame {
         var fs = require('fs')
 
         let input = fs.readFileSync(nombreFichero, "utf8")
-        let newThis: HobbyGame = new HobbyGame([JSON.parse(input).videogames])
+        let newThis: HobbyGame = new HobbyGame(JSON.parse(input).videogames)
         
         return newThis
     }

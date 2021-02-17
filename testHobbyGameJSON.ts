@@ -7,7 +7,7 @@ let output = JSON.stringify(hobbygame)
 
 var fs = require("fs");
 
-// fs.writeFileSync("hobbyGameBBDD.json", output)
+fs.writeFileSync("hobbyGameBBDD.json", output)
 
 let input = fs.readFileSync("hobbyGameBBDD.json", "utf8")
 
